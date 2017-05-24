@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		077537C21ED5442900EF0878 /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 077537C11ED5442900EF0878 /* libresolv.tbd */; };
 		1A2655D81D3F3B2200BDBA68 /* AppID.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A2655D71D3F3B2200BDBA68 /* AppID.m */; };
 		1A8E8D3D1D396CAA002FA67C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E8D3C1D396CAA002FA67C /* main.m */; };
 		1A8E8D401D396CAA002FA67C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A8E8D3F1D396CAA002FA67C /* AppDelegate.m */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		077537C11ED5442900EF0878 /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
 		1A2655D61D3F3AF700BDBA68 /* AppID.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppID.h; path = VideoChat/AppID.h; sourceTree = "<group>"; };
 		1A2655D71D3F3B2200BDBA68 /* AppID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppID.m; path = VideoChat/AppID.m; sourceTree = "<group>"; };
 		1A8E8D381D396CAA002FA67C /* Agora iOS Tutorial Objective-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Agora iOS Tutorial Objective-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				077537C21ED5442900EF0878 /* libresolv.tbd in Frameworks */,
 				1A8E8D811D396DDE002FA67C /* libc++.1.dylib in Frameworks */,
 				1A8E8D7F1D396DD3002FA67C /* SystemConfiguration.framework in Frameworks */,
 				1A8E8D7D1D396DCF002FA67C /* CoreMotion.framework in Frameworks */,
@@ -123,6 +126,7 @@
 		1A8E8D6F1D396D3B002FA67C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				077537C11ED5442900EF0878 /* libresolv.tbd */,
 				1A8E8D801D396DDE002FA67C /* libc++.1.dylib */,
 				1A8E8D7E1D396DD3002FA67C /* SystemConfiguration.framework */,
 				1A8E8D7C1D396DCF002FA67C /* CoreMotion.framework */,
