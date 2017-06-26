@@ -115,8 +115,8 @@
 - (void)setupButtons {
     [self performSelector:@selector(hideControlButtons) withObject:nil afterDelay:3];
     UITapGestureRecognizer *tapGestureRecognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(remoteVideoTapped:)];
-    [self.remoteVideo addGestureRecognizer:tapGestureRecognizer];
-    self.remoteVideo.userInteractionEnabled = true;
+    [self.view addGestureRecognizer:tapGestureRecognizer];
+    self.view.userInteractionEnabled = true;
 }
 
 - (void)hideControlButtons {
