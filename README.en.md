@@ -40,7 +40,7 @@ Finally, Open Agora iOS Tutorial Objective-C.xcodeproj, connect your iPhone／iP
 ## Connect Us
 
 - You can find full API document at [Document Center](https://docs.agora.io/en/)
-- You can fire bugs about this demo at [issue](https://github.com/AgoraIO/Agora-iOS-Tutorial-Objective-C-1to1/issues)
+- You can file bugs about this demo at [issue](https://github.com/AgoraIO/Agora-iOS-Tutorial-Objective-C-1to1/issues)
 
 ## License
 
